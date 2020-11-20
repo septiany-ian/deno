@@ -1,0 +1,12 @@
+<% if (subdata.statusSignup != ' '){%>
+    <p>
+        <%= subdata.statusSignup %>
+    </p>
+<% } %>
+
+<form action="daftar" method="post">
+    <p><input type="text" name="fullname" id="fullname">Nama Lengkap</p>
+    <p><input type="text" name="username" id="">Nama User</p>
+    <p><input type="password" name="paswd" id="">Password</p>
+    <p><input type="submit" value="SignUp"></p>
+</form>
